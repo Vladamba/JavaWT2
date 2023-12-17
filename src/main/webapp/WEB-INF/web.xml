@@ -6,12 +6,12 @@
   <display-name>Phonify</display-name>
 
   <listener>
-    <listener-class>com.bsuir.aleksandrov.phoneshop.web.listener.CloseListener</listener-class>
+    <listener-class>com.bsuir.matsiushenko.shop.web.listener.CloseListener</listener-class>
   </listener>
   
   <filter>
     <filter-name>localizationFilter</filter-name>
-    <filter-class>com.bsuir.aleksandrov.phoneshop.web.filter.LocalizationFilter</filter-class>
+    <filter-class>com.bsuir.matsiushenko.shop.web.filter.LocalizationFilter</filter-class>
   </filter>
 
   <filter-mapping>
@@ -21,7 +21,7 @@
   
   <servlet>
     <servlet-name>front-controller</servlet-name>
-    <servlet-class>com.bsuir.aleksandrov.phoneshop.web.FrontController</servlet-class>
+    <servlet-class>com.bsuir.matsiushenko.shop.web.FrontController</servlet-class>
   </servlet>
   
   <servlet-mapping>

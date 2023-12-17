@@ -3,7 +3,7 @@
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <%@ taglib prefix="fmt" uri="http://java.sun.com/jsp/jstl/fmt" %>
 
-<jsp:useBean id="phone" scope="request" type="com.bsuir.aleksandrov.phoneshop.model.entities.phone.Phone"/>
+<jsp:useBean id="phone" scope="request" type="com.bsuir.matsiushenko.shop.model.entities.phone.Phone"/>
 <fmt:setLocale value="${sessionScope.lang}"/>
 <fmt:setBundle basename="messages"/>
 <tags:master pageTitle="Phohe Details">

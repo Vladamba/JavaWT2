@@ -3,7 +3,7 @@
 <%@ taglib prefix="tags" tagdir="/WEB-INF/tags" %>
 <%@ taglib prefix="fmt" uri="http://java.sun.com/jsp/jstl/fmt" %>
 
-<jsp:useBean id="cart" scope="session" type="com.bsuir.aleksandrov.phoneshop.model.entities.cart.Cart"/>
+<jsp:useBean id="cart" scope="session" type="com.bsuir.matsiushenko.shop.model.entities.cart.Cart"/>
 <fmt:setLocale value="${sessionScope.lang}"/>
 <fmt:setBundle basename="messages"/>
 <tags:master pageTitle="Cart">
